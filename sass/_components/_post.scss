@@ -1,0 +1,15 @@
+.post-inner {
+    padding: $post-padding;
+    background-color: $post-content-bg;
+    width: 100rem;
+    margin: 0 auto;
+
+    .entry-content {
+        padding-top: 10rem;
+    }
+}
+
+.featured-media-inner
+{
+    background-color: $post-content-bg;
+}
