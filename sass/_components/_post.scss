@@ -1,3 +1,32 @@
+/* POST TITLE */
+
+body:not(.singular) main > article:first-of-type {
+    padding: 0;
+}
+
+h2.entry-title {
+    color: $post-heading-color;
+    a {
+        color: $post-heading-color;
+    }
+}
+
+.home .entry-header {
+    background-color: transparent;
+    padding: 0;
+    padding-top:15rem;
+    padding-bottom: 20rem;
+}
+
+.post:first-of-type .entry-header {
+  
+    background-image:$blog-page-bg-img;
+    background-size:100%;
+    background-repeat: no-repeat;
+
+}
+
+
 .post-inner {
     padding: $post-padding;
     background-color: $post-content-bg;
@@ -13,3 +42,16 @@
 {
     background-color: $post-content-bg;
 }
+
+@media(min-width:700px) {
+
+    body:not(.singular) main > article:first-of-type {
+        padding: 0;
+    }
+
+    .featured-media {
+        margin-top: -20rem;
+    }
+}
+
+

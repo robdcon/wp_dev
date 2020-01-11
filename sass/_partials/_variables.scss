@@ -2,11 +2,16 @@ $text-color: black;
 $base-font-size: 16px;
 $base-font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
 $base-font-weight: 400;
-$bottom-shadow: 0 1px 10px 1px #000000;
+$bottom-shadow: 0 1px 10px 1px rgba(0,0,0,0.3);
 
 $blog-page-bg-color: #eaeaea;
-$blog-page-bg-img: url(http://localhost/wp_dev/wp-content/uploads/2020/01/textured-background-blue.jpg);
+$home-page-bg-color: #eaeaea;
+$blog-page-bg-img: url(http://localhost/wp_dev/wp-content/uploads/2020/01/paul-gilmore-mqO0Rf-PUMs-unsplash-1200.jpg);
 
 $post-padding: 0 0 10rem 0;
 
 $post-content-bg: #ffffff;
+
+$header-title-color: #ffffff;
+
+$post-heading-color: #ffffff;

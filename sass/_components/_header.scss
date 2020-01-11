@@ -2,4 +2,20 @@ header#site-header
 {
     background: transparent;
     box-shadow: $bottom-shadow;
+    position: absolute;
+    width:100%;
+}
+
+/* HEADER TITLES */
+
+.header-titles {
+    color: $header-title-color;
+
+    .site-description {
+        color: $header-title-color;
+        opacity: 0.5;
+        &hover{
+            opacity:1;
+        }
+    }
 }

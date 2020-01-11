@@ -1,6 +1,22 @@
-body.home.blog {
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin:0;
+}
+
+
+body.home {
+    background-color: $home-page-bg-color;
+    // background-image: $blog-page-bg-img;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+/* SINGULAR POST */
+
+body.post-template-default.singular {
     background-color: $blog-page-bg-color;
-    background-image: $blog-page-bg-img;
+    // background-image: $blog-page-bg-img;
     background-size:100%;
     background-repeat: no-repeat;
 }

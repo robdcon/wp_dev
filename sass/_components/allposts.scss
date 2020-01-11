@@ -1,0 +1,12 @@
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100rem;
+    width: calc(100% - 4rem);
+}
+
+.home .post-inner {
+    padding: 0 2rem 10rem 2rem;
+    background-color: #ffffff;
+    width: 100rem;
+    margin: 0 auto;
+    margin-top: -20rem;
+}
