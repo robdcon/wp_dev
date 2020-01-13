@@ -6896,7 +6896,7 @@ body {
 
 /* line 8, sass/_components/_body.scss */
 body.home {
-  background-color: #eaeaea;
+  background-color: #ffffff;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -6904,7 +6904,7 @@ body.home {
 /* SINGULAR POST */
 /* line 17, sass/_components/_body.scss */
 body.post-template-default.singular {
-  background-color: #eaeaea;
+  background-color: #ffffff;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -6960,7 +6960,7 @@ h2.entry-title a {
 /* line 21, sass/_components/_post.scss */
 .post:first-of-type .entry-header {
   background-image: url(http://localhost/wp_dev/wp-content/uploads/2020/01/paul-gilmore-mqO0Rf-PUMs-unsplash-1200.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -7015,46 +7015,51 @@ h2.entry-title a {
   margin: 0 auto 3em auto;
 }
 
+/* line 21, sass/_components/singlepost.scss */
+.site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {
+  color: #ffffff;
+}
+
 @media (min-width: 700px) {
+  /* POST HEADER */
+  /* line 32, sass/_components/singlepost.scss */
+  .singular .entry-header {
+    background-color: transparent;
+    background-image: url(http://localhost/wp_dev/wp-content/uploads/2020/01/paul-gilmore-mqO0Rf-PUMs-unsplash-1200.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+  }
+
   /* POST TITLE */
-  /* line 27, sass/_components/singlepost.scss */
+  /* line 44, sass/_components/singlepost.scss */
   h2.entry-title {
     color: #ffffff;
   }
-  /* line 29, sass/_components/singlepost.scss */
+  /* line 46, sass/_components/singlepost.scss */
   h2.entry-title a {
     color: #ffffff;
   }
 
-  /* line 35, sass/_components/singlepost.scss */
+  /* POST INNER */
+  /* line 53, sass/_components/singlepost.scss */
   .post-inner {
     padding: 0 0 10rem 0;
     background-color: #ffffff;
     width: 100rem;
     margin: 0 auto;
-  }
-  /* line 41, sass/_components/singlepost.scss */
-  .post-inner .entry-content {
-    padding-top: 10rem;
+    padding: 6rem;
   }
 
-  /* line 46, sass/_components/singlepost.scss */
+  /* POST IMAGE CONTAINER */
+  /* line 63, sass/_components/singlepost.scss */
   .singular .featured-media-inner {
     position: relative;
     left: 0;
     width: 100vw;
     max-width: 100rem;
-  }
-
-  /* line 54, sass/_components/singlepost.scss */
-  .singular .entry-header {
-    background-color: transparent;
-    background-image: url(http://localhost/wp_dev/wp-content/uploads/2020/01/paul-gilmore-mqO0Rf-PUMs-unsplash-1200.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 0;
-    padding-top: 15rem;
-    padding-bottom: 20rem;
   }
 }
 /* line 1, sass/_components/allposts.scss */
@@ -7069,5 +7074,11 @@ h2.entry-title a {
   background-color: #ffffff;
   width: 100rem;
   margin: 0 auto;
-  margin-top: -20rem;
+  margin-top: -15rem;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 15, sass/_components/allposts.scss */
+.home .entry-content {
+  padding-top: 4rem;
 }

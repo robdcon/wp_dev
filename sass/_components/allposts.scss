@@ -8,5 +8,10 @@
     background-color: #ffffff;
     width: 100rem;
     margin: 0 auto;
-    margin-top: -20rem;
+    margin-top: -15rem;
+    box-shadow: $bottom-shadow;
+}
+
+.home .entry-content {
+    padding-top: 4rem;
 }
