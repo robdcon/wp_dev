@@ -6,7 +6,7 @@ Error: Undefined variable: "$bottom-shadow".
 8:     background-color: #ffffff;
 9:     width: 100rem;
 10:     margin: 0 auto;
-11:     margin-top: -15rem;
+11:     margin-top: -8rem;
 12:     box-shadow: $bottom-shadow;
 13: }
 14: 
@@ -64,4 +64,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bottom-shadow\".\A         on line 12 of C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/allposts.scss\A \A 7:     padding: 0 2rem 10rem 2rem;\A 8:     background-color: #ffffff;\A 9:     width: 100rem;\A 10:     margin: 0 auto;\A 11:     margin-top: -15rem;\A 12:     box-shadow: $bottom-shadow;\A 13: }\A 14: \A 15: .home .entry-content {\A 16:     padding-top: 4rem;\A 17: }"; }
+  content: "Error: Undefined variable: \"$bottom-shadow\".\A         on line 12 of C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/allposts.scss\A \A 7:     padding: 0 2rem 10rem 2rem;\A 8:     background-color: #ffffff;\A 9:     width: 100rem;\A 10:     margin: 0 auto;\A 11:     margin-top: -8rem;\A 12:     box-shadow: $bottom-shadow;\A 13: }\A 14: \A 15: .home .entry-content {\A 16:     padding-top: 4rem;\A 17: }"; }

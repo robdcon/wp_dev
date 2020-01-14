@@ -8,7 +8,7 @@
  */
 
 $entry_header_classes = '';
-
+$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 if ( is_singular() ) {
 	$entry_header_classes .= ' header-footer-group';
 }
@@ -27,7 +27,7 @@ if ( is_singular() ) {
 			 *
 			 * @param bool   Whether to show the categories in header, Default true.
 			 */
-		$show_categories = apply_filters( 'twentytwenty_show_categories_in_entry_header', true );
+		$show_categories = apply_filters( 'twentytwenty_show_categories_in_entry_header', false );
 
 		if ( true === $show_categories && has_category() ) {
 			?>

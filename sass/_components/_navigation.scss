@@ -1,0 +1,10 @@
+body:not(.overlay-header) .primary-menu-wrapper .primary-menu > li > a {
+
+    color:$nav-link-color;
+    text-decoration:none;
+    
+    &:hover{
+        color: $nav-link-hover-color;
+        transform: translateY(-0.5rem);
+    }
+}

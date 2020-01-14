@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$meta-data-color".
-        on line 22 of C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/singlepost.scss
+Error: Undefined variable: "$blog-page-bg-img".
+        on line 10 of C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/singlepost.scss
 
-17:     max-width: 100rem;
-18:     margin: 0 auto 3em auto;
-19: }
-20: 
-21: .site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {
-22:     color: $meta-data-color;
-23: }
-24: 
-25: 
-26: 
-27: 
+5: 
+6:     /* POST HEADER *\/
+7: 
+8:     .singular:not(.overlay-header) .entry-header {
+9:         background-color: transparent;
+10:         background-image:$blog-page-bg-img;
+11:         background-size:cover;
+12:         background-repeat: no-repeat;
+13:         padding: 0;
+14:         padding-top: 15rem;
+15:         padding-bottom: 20rem;
 
 Backtrace:
-C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/singlepost.scss:22
+C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/singlepost.scss:10
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -30,6 +30,20 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perfor
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:516:in `visit_media'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
@@ -64,4 +78,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$meta-data-color\".\A         on line 22 of C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/singlepost.scss\A \A 17:     max-width: 100rem;\A 18:     margin: 0 auto 3em auto;\A 19: }\A 20: \A 21: .site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {\A 22:     color: $meta-data-color;\A 23: }\A 24: \A 25: \A 26: \A 27: "; }
+  content: "Error: Undefined variable: \"$blog-page-bg-img\".\A         on line 10 of C:/wamp64/www/wp_dev/wp-content/themes/twentytwenty/sass/_components/singlepost.scss\A \A 5: \A 6:     /* POST HEADER */\A 7: \A 8:     .singular:not(.overlay-header) .entry-header {\A 9:         background-color: transparent;\A 10:         background-image:$blog-page-bg-img;\A 11:         background-size:cover;\A 12:         background-repeat: no-repeat;\A 13:         padding: 0;\A 14:         padding-top: 15rem;\A 15:         padding-bottom: 20rem;"; }
